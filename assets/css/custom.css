@@ -1,0 +1,316 @@
+/*=============================================================
+    Authour URI: www.binarycart.com
+    License: Commons Attribution 3.0
+
+    http://creativecommons.org/licenses/by/3.0/
+
+    100% To use For Personal And Commercial Use.
+    IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
+   
+    ========================================================  */
+
+/*==============================================
+    GENERAL  STYLES    
+    =============================================*/
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+#wrapper {
+	width: 100%;
+	background: #202020;
+}
+
+#page-wrapper{
+	padding: 15px 15px;
+	min-height: 500px;
+	background: #F3F3F3;
+}
+
+#page-inner{
+	width: 100%;
+	margin: 10px 20px 10px 0px;
+	background-color:#fff!important;
+	padding: 10px;
+	min-height: 900px;
+}
+
+h2 {
+	color: #f00;
+}
+
+h4{
+	padding-top:10px; 
+}
+
+p{
+	font-size:16px;
+    line-height:25px;
+    padding-top:20px;
+}
+
+/*error masage*/
+.error{
+	color: red;
+}
+
+.success {
+	color: green;
+}
+
+/*==============================================
+   DASHBOARD STYLES    
+    =============================================*/
+
+
+	/*=====
+.panel-back {
+	background-color: #F8F8F8;
+}
+
+.noti-box {
+	min-height: 100px;
+	background-color: green;
+	padding: 20px;
+}
+.noti-box .icon-box {
+	float: left;
+	height: 100px;
+}
+
+.noti-box .icon-box {
+	display: block;
+	float: left;
+	margin: 0 15px 10px 0;
+	width: 70px;
+	height: 70px;
+	line-height: 75px;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 40px;
+}
+
+.text-box p{
+	margin: 0 0 3px;
+}	
+
+.main-text {
+    font-size: 25px;
+    font-weight:
+}=============*/
+
+
+
+/*pannel -> text*/
+.text-center {
+	text-align: center;
+}
+
+/*pannel -> boder*/
+.no-boder {
+	border: 1px solid #f3f3f3;
+}
+
+/*pannel -> color*/
+.bg-color-blue {
+background-color: #150350 ;
+color: #fff;
+}
+
+.bg-color-pink{
+	background-color: #d00b29;
+	color: #fff;
+}
+
+.bg-color-yellow {
+background-color: #e4950b;
+color: #fff;
+}
+.bg-color-teal{
+background-color: #008080;
+color: #fff;
+}
+
+/*=====
+.color-bottom-txt {
+	color: #000;
+	font-size: 16px;
+	line-height: 30px;
+}
+====*/
+
+
+/*==============================================
+    MENU STYLES    
+    =============================================*/
+
+.user-image {
+	margin: 25px auto;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	max-height:170px;
+	max-width:170px;
+}
+
+
+/*top navbar left*/
+.navbar-cls-top .navbar-brand{
+	color: #fff;
+	width: 260px;
+	text-align: center;
+	height: 60px;
+	font-size: 30px;
+	font-weight: 700px;
+	font-weight: bold;
+}
+
+/*top navbar right*/
+#navbar-right {
+	color: white;
+	float: right;
+	padding: 15px 50px 5px 50px;
+	font-size: 16px;
+}
+
+/*logout btn*/
+.square-btn-adjust {
+	border: 0px solid transparent; 
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 3px;
+}
+
+/*side  nav bar*/
+.active-menu {
+	background-color: #EAB500!important;
+}
+
+/*=====
+.arrow {
+	float: left;
+}
+.fa.arrow:before {
+	content: "\f104";
+}
+.active > a > .fa.arrow:before {
+	content: "\f107";
+}
+.nav-second-level li,
+.nav-third-level li {
+	border-bottom: none !important;
+}
+.nav-second-level li a {
+	padding-left: 37px;
+}
+.nav-third-level li a {
+    padding-left: 55px;
+} =====*/
+
+.sidebar-collapse, .sidebar-collapse .nav {
+	background: none;
+}
+
+.sidebar-collapse .nav {
+	padding: 0px;
+}
+
+.sidebar-collapse .nav > li > a {
+	color: #fff;
+	background: #202020;
+	text-shadow: none;
+	padding: 15px 10px;
+}
+
+.sidebar-collapse .nav > li {
+	border-bottom: 1px solid rgba(107, 108, 109, 0.19);
+}
+
+.sidebar-collapse .nav > li > a:hover,
+.sidebar-collapse .nav > li > a:focus {
+	background:#0A0A0A;
+	outline:0;
+}
+
+.navbar-side {
+	border:none;
+	background-color: #202020;
+}
+
+.nav > li > a >i {
+	margin-right: 13px;
+}
+
+/*===TOP NAV BAR==*/
+
+ /*top nav bar gradient*/
+.navbar-cls-top {
+	background: linear-gradient(to bottom,  #080a0d, #191c1d, #262b2a, #373a38, #494a46);
+	border-bottom:none;
+}
+
+.navbar-cls-top .navbar-brand:hover {
+	color: #fff;
+}
+
+.navbar-default {
+	border: 0px solid black;
+}
+
+/* fixed toggle */
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+	background: #B40101;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: #fff;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #fff;
+}
+
+/*==============================================
+    UI ELEMENTS STYLES     
+    =============================================*/
+
+.btn-circle {
+	width: 50px;
+	height: 50px;
+	padding: 6px 0;
+	 -webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+	text-align: center;
+	font-size: 12px;
+	line-height: 1.428571429;
+}
+
+/*==============================================
+    MEDIA QUERIES     
+    =============================================*/
+
+@media(min-width: 768px){
+	#page-wrapper {
+		margin: 0 0 0 260px;
+		padding:  15px 30px;
+		min-height: 900px;
+	}
+
+	.navbar-side {
+		width: 260px;
+		position: absolute;
+		z-index: 1;
+	}
+
+	.navbar {
+		border-radius: 0px;
+	}
+
+
+/*==============================================
+    LOGIN FORM     
+    =============================================*/
+
+
